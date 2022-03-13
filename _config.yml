@@ -8,15 +8,14 @@ middle_name: T.
 last_name: Johnson
 email: john@johnjohnson.info
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Beginnings of a new website
+  John's personal website
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: pcb-gcode  # add your own keywords or leave empty
+
+keywords: data science, python, prosthetics, prostheses, vibrotactile feedback, pcb-gcode  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: brain256.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://www.johnjohnson.info # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -138,6 +137,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - server
+  - build_and_deploy
+  - notes.md
+  - _posts/examples
+  - _projects/examples
 keep_files:
   - CNAME
   - .nojekyll
