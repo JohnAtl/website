@@ -137,6 +137,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - build
   - server
   - build_and_deploy
   - notes.md
