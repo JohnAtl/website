@@ -87,6 +87,8 @@ GEM
       octokit (~> 4.0, != 4.4.0)
     jekyll-imagemagick (1.4.0)
       jekyll (>= 3.4)
+    jekyll-mastodon_webfinger (1.0.2)
+      jekyll (>= 3.0, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-sass-converter (2.2.0)
@@ -163,6 +165,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-github-metadata
   jekyll-imagemagick
+  jekyll-mastodon_webfinger (~> 1.0)
   jekyll-paginate-v2
   jekyll-scholar
   jekyll-sitemap
@@ -173,4 +176,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.3.3
+   2.3.26

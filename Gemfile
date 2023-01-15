@@ -18,3 +18,5 @@ group :jekyll_plugins do
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
 end
+
+gem "jekyll-mastodon_webfinger", "~> 1.0"

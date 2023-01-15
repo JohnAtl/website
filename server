@@ -1,5 +1,5 @@
 #!/bin/bash
 
-osascript -e 'tell application "Safari" to open location "http://127.0.0.1:4000"'
+osascript -e 'tell application "Safari" to open location "http://127.0.0.1:4040"'
 
-bundle exec jekyll server
+bundle exec jekyll server -P 4040
