@@ -1,0 +1,104 @@
+- title: General Information
+  type: list
+  contents:
+    - <b><big>John T. Johnson</big></b>
+    - My motivation for my career change from IT to earning my Bachelors degree, then a PhD in Applied Physiology with a neuroscience minor was to perform research and gain knowledge that could help people with disabilities, specifically , those with upper-limb difference. <p />Now that I've completed my doctorate, I would like to apply the skills and knowledge I've acquired to answering questions using rigorous, data-driven insights.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Doctor of Philosophy
+      institution: Georgia Institute of Technology
+      year: 2022
+      description:
+        - Applied Physiology
+        - Neuroscience Minor
+    - title: Bachelor of Science
+      institution: Georgia Gwinnett College
+      year: 2013
+      description:
+        - Cell Biology / Biotechnology
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Doctoral Researcher
+      institution: Georgia Institute of Technology
+      year: 2014 - 2022
+      description:
+        - Developed and executed three research projects including hypotheses, experimental design, IRB approval, participant recruitment, data collection (neuroimaging - EEG, fMRI), analyses, leading to a ﬁrst author publication with another in preparation.
+        - Integrated EEG, kinematics, behavioral, and eye-tracking systems to enable co-registered data collection of rich, multi-modal datasets.
+        - Gained insights into the relationship between neural, behavioral, and kinematics data across time and multiple participants by cleaning data, screening for outliers, using signal processing techniques, and applying correct statistical measures for both parametric and non-parametric data.
+        - Contributed to the body of knowledge related to prosthesis embodiment by conducting an fMRI study which resulted in localization of brain activity when observing a hand or prosthesis performing a task. Built on these ﬁndings to learn how ef fective connectivity and graph-theoretic properties change between the conditions, indicating changes in information ﬂow between brain regions.
+        - Reduced human intervention bias by automating processing as much as possible resulting in robust, repeatable results.
+        - Disseminated the knowledge gained from my studies by creating visualizations, making presentations, and publishing my ﬁndings in a respected journal, with a second publication in process.
+        - Collaborated with eleven graduate students in completing their doctoral research by teaching and assisting them with building custom research equipment, designing their studies, performing data collection, and analyses, resulting in two co-author publications, and another in preparation.
+        - Collaborated on the design and execution of a prosthesis simulator resulting in a patent application currently under review by the United States Patent and Trademark Oﬃce.
+        - Directed and mentored 10 undergraduate students from which multiple presentations were made, and one mentee who has a neuroscience-related startup.
+
+    - title: Graduate Teaching Assistant
+      institution: Georgia Institute of Technology
+      year: 2017 - 2022
+      description:
+        - Neuroscience Program
+        - Collaborated in curriculum design for labs and courses in the startup of, and the continuing, neuroscience program.
+        - Taught 225+ neuroscience students in labs and lectures. Topics included experimental methods, neuroimaging, experimental design, lab techniques, electrophysiology, physics, analyses of physiological data, EEG and fMRI data, statistics, and visualization of data.
+        - 2019 Biological Sciences Graduate Lecture Teaching Assistant of the Year
+        - NIH Research Experience for Undergraduates
+        - A National Institutes of Health-funded summer 2022 course for students historically underrepresented in the neuroscience ﬁeld.
+        - Collaborated with program directors on course design, student recruitment and selection.
+        - Taught the lab component including collection, analysis, and statistical techniques in neuroimaging and physiological signal processing of EEG and fMRI data.
+
+    - title: Senior Field Service Engineer
+      institution: Gerber Scientific, Inc.
+      year: 1982 - 2008
+      description:
+        - Provided exemplary support, training, and installation for mission-critical systems used by a diverse customer base in the aerospace, garment, eyeglass, and sign-making industries.
+        - Self-directed and worked independently.
+        - Advocated for my customers to ensure their needs were heard and met.
+        - Provided lasting value to the customer and my employer by creating detailed documentation of services performed.
+        - Minimized downtime by providing telephone support when possible.
+        - Above and beyond my assigned duties, I identiﬁed issues and implemented solutions:
+        - Wrote an inventory control program that was also used as an incentive for customers to sign a parts contract. This increased customer contracts, and for this work, I received the Service Hero of the Month Award.
+        - Reduced labor for reporting weekly time detail from remote employees a day a week, to 2 hours per week by writing custom software applications and developing remote upload protocols.
+        - Implemented a data conversion system allowing a customer to import their existing data to their newly-purchased system saving countless hours of manually digitizing and reentering components.
+
+- title: Open Source Project
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/johnatl/pcbgcode">PCB-GCODE</a>
+      year: 2003-now
+      description: A plugin for the Eagle schematic capture program that allows users to create printed circuit boards using a milling machine or router, rather than toxic chemicals. Thousands of users worldwide.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2019
+      items: 
+        - Biological Sciences Graduate Lecture Teaching Assistant of the Year
+    - year: 2014 - 2017
+      items: 
+        - NIH T32 Training Grant Fellowship
+    - year: 2014 - 2018
+      items:
+        - Georgia Tech President's Fellowship
+
+- title: Volunteering
+  type: list
+  contents:
+  - Atlanta Chapter, Society for Neuroscience, 2016–2017
+  - Atlanta Science Festival, Booth team leader, 2015–2018
+  - Paws for a Cause, 2015–2016
+  - Promoting Applied Physiology through Education and Research (PAPER), founding member, 2015–2017
+  - Mad Housers, 2013
+
+- title: Other Interests
+  type: list
+  contents:
+    - Indoor rowing, 5,000,000 m+ to date, 900+ day streak
+    - pcb-gcode, a free and open source project for producing printed circuit boards without chemicals; used worldwide
+    - Electronics, microcontrollers (Arduino, Raspberry Pi, etc.)
+    - Linux, macOS / homelab 
+    - Hiking
+    - The arts, especially art, symphony, ballet, and live music
+    - Philosophy, reading, thinking about thought and knowledge acquisition

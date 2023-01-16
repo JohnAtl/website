@@ -12,7 +12,7 @@
     <title>John T. Johnson | projects</title>
     <meta name="author" content="John T. Johnson" />
     <meta name="description" content="A growing collection of your cool projects." />
-    <meta name="keywords" content="data science, python, prosthetics, prostheses, vibrotactile feedback, pcb-gcode" />
+    <meta name="keywords" content="data science, user experienc, research" />
 
 
     <!-- Bootstrap & MDB -->
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/brain256.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4040/projects/">
+    <link rel="canonical" href="https://www.johnjohnson.info/projects/">
     
     <!-- Dark Mode -->
     
@@ -53,7 +53,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="http://localhost:4040/">John T.  Johnson</a>
+          <a class="navbar-brand title font-weight-lighter" href="https://www.johnjohnson.info/">John T.  Johnson</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -76,11 +76,17 @@
               </li>
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/cv/">cv</a>
+              </li>
               <li class="nav-item active">
                 <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/repositories/">repositories</a>
               </li>
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus</a>
@@ -118,13 +124,67 @@
             <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
-  <h2 class="category">work</h2>
+  <h2 class="category">academic</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/rsna_bc_screening-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/rsna_bc_screening-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/rsna_bc_screening-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/rsna_bc_screening.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">RSNA Screening Mammography Breast Cancer Detection</h2>
+          <p class="card-text">A Kaggle competiton to improve breast cancer detection using artificial intelligence.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
   </div>
-  <h2 class="category">fun</h2>
+  <h2 class="category">hobby</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/2_project/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/pcbgcode-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/pcbgcode-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/pcbgcode-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/pcbgcode.jpeg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">pcb-gcode</h2>
+          <p class="card-text">Make printed circuit boards without toxic chemicals.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
   </div>
 </div>
 
@@ -137,7 +197,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 John T. Johnson. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
+        © Copyright 2023 John T. Johnson, all rights reserved. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
 
       </div>
     </footer>
